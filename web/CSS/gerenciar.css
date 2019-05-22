@@ -1,0 +1,27 @@
+.divTotal{
+    margin-top: 5%;
+}
+
+.bgBody{
+    background-image: url("../IMG/index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.90;
+    display: block;
+    height: 100%; 
+}
+
+.blocoBranco{
+    position: fixed;
+    left: 5%;
+    height: 100%;
+    width: 90%;
+    background-color: #fff; 
+}
+
+#FormCriar{
+    height: 46%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}

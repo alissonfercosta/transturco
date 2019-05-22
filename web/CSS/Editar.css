@@ -1,0 +1,64 @@
+body {
+    background-image: url("../IMG/index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.90;
+    display: block;
+    height: 100%;
+    font-size: 13px!important;
+}
+
+hr{
+    border-bottom-color: 1px solid #3B4E77;
+    color: #3B4E77;
+    background-color: #3B4E77;
+}
+.blocoBranco{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #fff; 
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #203667;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 26px 6px 36px 0px;
+    border-bottom: 1px solid #3B4E77;    
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #c1c1c1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    padding: 5%;
+    margin-top: -5%;
+}
+
+.inputsLimit{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
